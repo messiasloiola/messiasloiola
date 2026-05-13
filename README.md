@@ -1,14 +1,14 @@
 <!--
-  This README goes in the repository: github.com/messiasloiola/messiasloiola
-  GitHub auto-renders it on your profile page.
-  Create the repo with the EXACT same name as your username, then push this file as README.md.
+  Este README vai no repositório: github.com/messiasloiola/messiasloiola
+  GitHub renderiza automaticamente na página do seu perfil.
+  O nome do repositório precisa ser EXATAMENTE igual ao seu username.
 -->
 
-<h1 align="center">Hi, I'm Messias 👋</h1>
+<h1 align="center">Olá, eu sou o Messias 👋</h1>
 
 <p align="center">
   <b>Platform Engineer · Cloud & DevOps · AI-Augmented Infrastructure</b><br/>
-  <sub>Brasília, Brazil · 7+ years building critical infrastructure</sub>
+  <sub>Brasília, Brasil · 7+ anos construindo infraestrutura crítica</sub>
 </p>
 
 <p align="center">
@@ -18,18 +18,18 @@
 
 ---
 
-## About
+## Sobre
 
-I run the AWS multi-account platform at **Ticket and Go** (multi-tenant SaaS ticketing) — a platform that handles **10–50x traffic spikes** during event launches. Day-to-day I think about Terraform-first infrastructure, security in depth (**PCI-DSS Level 4**, **LGPD**), connection pooling at scale, blue/green database migrations and FinOps.
+Cuido sozinho da plataforma AWS multi-account da **Ticket and Go** (SaaS multi-tenant de bilheteria digital) — plataforma que precisa absorver **picos de 10–50x de tráfego** em lançamentos de evento. No dia-a-dia trabalho com infraestrutura Terraform-first, segurança em camadas (**PCI-DSS Nível 4**, **LGPD**), connection pooling em escala, migrações de banco blue/green sem downtime e FinOps.
 
-Before that, I spent 5+ years operating on-prem and hybrid infrastructure for the Brazilian public sector — Banco do Brasil, DF Military Police, Ministry of Education — and built mid-size AWS platforms at Heiliger Tech.
+Antes disso, foram 5+ anos operando infra on-premises e híbrida no setor público brasileiro — Banco do Brasil, Polícia Militar do DF e Ministério da Educação — e construção de plataformas AWS de porte médio na Heiliger Tech.
 
-## What I'm currently up to
+## No que estou trabalhando agora
 
-- 🏗️ Migrating a monolithic ECS estate to a **serverless event-driven architecture** (Lambda + Aurora Serverless v2 + RDS Proxy + EventBridge + SQS FIFO/DLQ)
-- 🔐 Modeling a **canonical PostgreSQL RBAC pattern** (NOLOGIN Group Roles + Owner Role) across multi-account environments
-- 🌐 Replacing SSM port-forwarding with **Cloudflare Zero Trust** (WARP + Tunnel + SAML IdP via AWS SSO)
-- 🤖 Operating production infra with an **LLM-assisted workflow** (Claude Code + custom sub-agents + MCP servers + versioned rules-as-code)
+- 🏗️ Migrando estado monolítico em ECS pra **arquitetura serverless event-driven** (Lambda + Aurora Serverless v2 + RDS Proxy + EventBridge + SQS FIFO/DLQ)
+- 🔐 Modelando um **padrão canônico de RBAC em PostgreSQL** (Group Roles NOLOGIN + Owner Role) replicável em ambientes multi-account
+- 🌐 Substituindo port-forward via SSM por **Cloudflare Zero Trust** (WARP + Tunnel + SAML IdP via AWS SSO)
+- 🤖 Operando infra de produção com **workflow LLM-assisted** (Claude Code + sub-agentes customizados + MCP servers + rules-as-code versionadas)
 
 ## Tech Stack
 
@@ -47,18 +47,18 @@ Before that, I spent 5+ years operating on-prem and hybrid infrastructure for th
 ![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
-**Data & Messaging**
+**Dados & Mensageria**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
-**Observability**
+**Observabilidade**
 
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 
-**Languages**
+**Linguagens**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -66,23 +66,23 @@ Before that, I spent 5+ years operating on-prem and hybrid infrastructure for th
 
 ## Open Source
 
-Modules and playbooks I'm working on (work in progress):
+Módulos e playbooks em andamento (em construção):
 
-- 🚧 [`terraform-aws-multi-account-foundation`](https://github.com/messiasloiola/terraform-aws-multi-account-foundation) — opinionated VPC base for multi-account AWS setups: 4-tier subnets × N AZs, HA NAT, VPC Flow Logs, hub-and-spoke-ready
-- 🚧 More to come — RDS Proxy + RBAC pattern, GitHub Actions OIDC reusable workflows, platform engineering playbooks
+- 🚧 [`terraform-aws-multi-account-foundation`](https://github.com/messiasloiola/terraform-aws-multi-account-foundation) — base de VPC opinionada pra setups AWS multi-account: 4 tiers de subnet × N AZs, NAT em HA, VPC Flow Logs, pronto pra hub-and-spoke
+- 🚧 Mais por vir — padrão RDS Proxy + RBAC, reusable workflows GitHub Actions com OIDC, playbooks de platform engineering
 
-## Certifications
+## Certificações
 
 - Gravitee Event-native API Management — **Professional** (2025)
 - Gravitee Event-native API Management — **Foundations** (2025)
 - Kubernetes / Linux / Docker Essentials — LINUXtips (2024)
 - AWS Certified **Cloud Practitioner** (2023)
 
-## Reach me
+## Contato
 
-- 💬 [LinkedIn](https://www.linkedin.com/in/messias-loiola) — best place to chat
+- 💬 [LinkedIn](https://www.linkedin.com/in/messias-loiola) — melhor lugar pra trocar ideia
 - 📬 [messiasloiolas@gmail.com](mailto:messiasloiolas@gmail.com)
 
 ---
 
-<sub>This profile is a work in progress — most of what I do lives in private infrastructure repos. The open-source modules above are sanitized distillations of patterns I use in production.</sub>
+<sub>Este perfil está em construção — a maior parte do meu trabalho vive em repositórios privados de infraestrutura. Os módulos open-source acima são destilações sanitizadas de padrões que uso em produção.</sub>

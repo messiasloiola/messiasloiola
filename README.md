@@ -20,7 +20,7 @@
 
 ## Sobre
 
-Cuido sozinho da plataforma AWS multi-account da **Ticket and Go** (SaaS multi-tenant de bilheteria digital) — plataforma que precisa absorver **picos de 10–50x de tráfego** em lançamentos de evento. No dia-a-dia trabalho com infraestrutura Terraform-first, segurança em camadas (**PCI-DSS Nível 4**, **LGPD**), connection pooling em escala, migrações de banco blue/green sem downtime e FinOps.
+Cuido sozinho da plataforma AWS multi-account da **Ticket and Go** (SaaS multi-tenant de bilheteria digital) — plataforma com **elasticidade obrigatória pra absorver bursts de venda concentrados em janelas curtas** (lançamentos de evento, abertura de lotes). No dia-a-dia trabalho com infraestrutura Terraform-first, segurança em camadas (**PCI-DSS Nível 4**, **LGPD**), connection pooling em escala, migrações de banco blue/green sem downtime e FinOps.
 
 Antes disso, foram 5+ anos operando infra on-premises e híbrida no setor público brasileiro — Banco do Brasil, Polícia Militar do DF e Ministério da Educação — e construção de plataformas AWS de porte médio na Heiliger Tech.
 

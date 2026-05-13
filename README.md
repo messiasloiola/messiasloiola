@@ -71,7 +71,7 @@ Módulos publicados — destilações sanitizadas de padrões reais de produçã
 - [`terraform-aws-multi-account-foundation`](https://github.com/messiasloiola/terraform-aws-multi-account-foundation) — base de VPC opinionada pra setups AWS multi-account: 4 tiers de subnet × N AZs, NAT em HA, VPC Flow Logs, default SG locked down
 - [`terraform-aws-rds-proxy-rbac`](https://github.com/messiasloiola/terraform-aws-rds-proxy-rbac) — RDS Proxy + Secrets Manager multi-consumer + templates SQL canônicos de **RBAC PostgreSQL** (PCI-DSS R7+R8): TLS+SCRAM, password rotation out-of-band, Group Roles NOLOGIN
 - [`github-actions-aws-oidc`](https://github.com/messiasloiola/github-actions-aws-oidc) — reusable workflow GitHub Actions pra deploy AWS via **OIDC AssumeRole**. Zero access keys estáticas, padrão `branch→stage→role` pra multi-account
-- 🚧 Próximos: playbooks de platform engineering
+- [`platform-engineering-playbooks`](https://github.com/messiasloiola/platform-engineering-playbooks) — playbooks técnicos destilados de produção. Primeiro release: **RBAC consolidado em PostgreSQL multi-ambiente** (Group Roles NOLOGIN + Owner Role, migração production-safe)
 
 ## Certificações
 

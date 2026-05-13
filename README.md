@@ -66,10 +66,11 @@ Antes disso, foram 5+ anos operando infra on-premises e híbrida no setor públi
 
 ## Open Source
 
-Módulos e playbooks em andamento (em construção):
+Módulos publicados — destilações sanitizadas de padrões reais de produção:
 
-- 🚧 [`terraform-aws-multi-account-foundation`](https://github.com/messiasloiola/terraform-aws-multi-account-foundation) — base de VPC opinionada pra setups AWS multi-account: 4 tiers de subnet × N AZs, NAT em HA, VPC Flow Logs, pronto pra hub-and-spoke
-- 🚧 Mais por vir — padrão RDS Proxy + RBAC, reusable workflows GitHub Actions com OIDC, playbooks de platform engineering
+- [`terraform-aws-multi-account-foundation`](https://github.com/messiasloiola/terraform-aws-multi-account-foundation) — base de VPC opinionada pra setups AWS multi-account: 4 tiers de subnet × N AZs, NAT em HA, VPC Flow Logs, default SG locked down
+- [`terraform-aws-rds-proxy-rbac`](https://github.com/messiasloiola/terraform-aws-rds-proxy-rbac) — RDS Proxy + Secrets Manager multi-consumer + templates SQL canônicos de **RBAC PostgreSQL** (PCI-DSS R7+R8): TLS+SCRAM, password rotation out-of-band, Group Roles NOLOGIN
+- 🚧 Próximos: reusable workflows GitHub Actions com OIDC, playbooks de platform engineering
 
 ## Certificações
 
